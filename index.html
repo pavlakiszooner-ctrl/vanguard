@@ -1,102 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sunrise Bakery - Fresh artisan breads, pastries, and cakes baked daily with love">
-    <title>Home - Sunrise Bakery</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header class="header">
-        <nav class="nav">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="index.html" class="logo">
-                        <span class="logo-icon">🥖</span>
-                        <span class="logo-text">Sunrise Bakery</span>
-                    </a>
-                    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <ul class="nav-menu" id="navMenu">
-                        <li><a href="index.html" class="nav-link active">Home</a></li>
-                        <li><a href="menu.html" class="nav-link">Menu</a></li>
-                        <li><a href="order.html" class="nav-link">Order</a></li>
-                        <li><a href="about.html" class="nav-link">About</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Vanguard Admin</title>
+      <link rel="icon" type="image/png" href="https://i.postimg.cc/cJPFH6T5/Chat-GPT-Image-Jan-30-2026-11-21-20-PM.png" />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Styles (optional, if you have styles.css) -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-gray-100 min-h-screen">
+    <!-- Root div for React -->
+    <div id="vanguard-admin-root"></div>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <h1 class="hero-title">Welcome to Sunrise Bakery</h1>
-                    <p class="hero-subtitle">Freshly baked goods made with love every morning</p>
-                    <div class="hero-buttons">
-                        <a href="menu.html" class="btn btn-primary">View Our Menu</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- React, ReactDOM, Babel CDNs -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-        <!-- Features Section -->
-        <section class="features" style="margin-bottom: 60px;">
-            <div class="container">
-                <h2 class="section-title">Fresh Daily, Quality Ingredients and Master Bakers</h2>
-                <div class="features-images" style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 30px;">
-                    <div class="feature-image-card" style="flex: 1; max-width: 350px;">
-                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop" alt="Fresh baked bread" class="feature-img" style="width: 100%; height: auto; border-radius: 8px; border: 4px solid #d4a574;">
-                    </div>
-                    <div class="feature-image-card" style="flex: 1; max-width: 350px;">
-                        <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=300&fit=crop" alt="Quality ingredients" class="feature-img" style="width: 100%; height: auto; border-radius: 8px; border: 4px solid #d4a574;">
-                    </div>
-                    <div class="feature-image-card" style="flex: 1; max-width: 350px;">
-                        <img src="https://images.unsplash.com/photo-1556910110-a5a63dfd393c?w=400&h=300&fit=crop" alt="Master baker at work" class="feature-img" style="width: 100%; height: auto; border-radius: 8px; border: 4px solid #d4a574;">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Call to Action -->
-        <section class="cta">
-            <div class="container">
-                <div class="cta-content">
-                    <h2 class="cta-title">Visit Us Today</h2>
-                    <p class="cta-text">Experience the warmth and aroma of freshly baked goods</p>
-                    <a href="order.html" class="btn btn-primary">Order Online</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4 class="footer-title">Sunrise Bakery</h4>
-                    <p class="footer-text">Baking with passion since 2005</p>
-                </div>
-                <div class="footer-section">
-                    <h4 class="footer-title">Contact</h4>
-                    <p class="footer-text">📍 123 Main Street<br>📞 (555) 123-4567<br>📧 hello@sunrisebakery.com</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Sunrise Bakery. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- React App (JSX, Babel) -->
+    <!-- Vanguard Admin: React App (JSX, Babel) -->
+    <script type="text/babel" src="app.js"></script>
+  </body>
 </html>
