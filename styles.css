@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+  .mobile-nav-menu {
+    width: 90vw !important;
+    max-width: 90vw !important;
+    min-width: 90vw !important;
+  }
+}
 /* SaaS UI polish for sidebar, header, and dropdown */
 .user-avatar-dropdown img {
   box-shadow: 0 2px 8px 0 rgba(37,99,235,0.10);

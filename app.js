@@ -1723,7 +1723,7 @@ function VanguardAdminDashboard({ onLogOut }) {
         >
           <div className={`absolute inset-0 bg-black bg-opacity-30 transition-opacity duration-300 ${mobileSidebar ? 'opacity-100' : 'opacity-0'}`} onClick={() => setMobileSidebar(false)} />
           <aside
-            className={`absolute left-0 top-0 h-full w-64 bg-white shadow-xl border-t-4 border-t-blue-500 rounded-r-2xl pt-4 pb-2 px-2 transition-transform duration-300 ${mobileSidebar ? 'translate-x-0' : '-translate-x-full'}`}
+            className={`absolute left-0 top-0 h-full w-64 bg-white shadow-xl border-t-4 border-t-blue-500 rounded-r-2xl pt-4 pb-2 px-2 transition-transform duration-300 mobile-nav-menu ${mobileSidebar ? 'translate-x-0' : '-translate-x-full'}`}
             style={{ minWidth: '16rem', maxWidth: '16rem' }}
           >
             <div className="text-black font-semibold text-lg mb-6 tracking-wide">Navigation</div>
