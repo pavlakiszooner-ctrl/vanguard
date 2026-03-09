@@ -1,3 +1,16 @@
+/* Custom mobile layout improvements */
+@media (max-width: 640px) {
+  #vanguard-admin-root {
+    padding: 1.5rem 0.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    background: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
 /* SaaS UI polish for sidebar, header, and dropdown */
 .user-avatar-dropdown img {
   box-shadow: 0 2px 8px 0 rgba(37,99,235,0.10);
